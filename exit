@@ -1,0 +1,36 @@
+[33mcommit 43549c8c066c4b99be1bcf6216449652013611b0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Vitalii <Vitaliy.Rbn@gmail.com>
+Date:   Sat Jul 4 21:50:45 2020 +0300
+
+    Begin to write code
+
+[33mcommit 9ac24c55985321b5b25c5372b2a9bd496e4afbf9[m
+Author: Vitalii <Vitaliy.Rbn@gmail.com>
+Date:   Mon Jun 22 20:29:22 2020 +0300
+
+    add gitignore
+
+[33mcommit 95e58659c974ee3ece3e4026745251373d82d183[m
+Merge: 1cd19d2 971be2b
+Author: Vitalii <Vitaliy.Rbn@gmail.com>
+Date:   Mon Jun 22 19:57:26 2020 +0300
+
+    Merge branch 'master' of https://github.com/VitaliiRbn/project
+
+[33mcommit 1cd19d20ecc39b7ae7d5c6ed5f8f28a006723027[m
+Author: Vitalii <Vitaliy.Rbn@gmail.com>
+Date:   Mon Jun 22 19:48:06 2020 +0300
+
+    Second repository
+
+[33mcommit 971be2b932535d7d2749812bc68b2ea035d0be58[m
+Author: VitaliiRbn <67240840+VitaliiRbn@users.noreply.github.com>
+Date:   Mon Jun 22 19:44:12 2020 +0300
+
+    Create README.md
+
+[33mcommit 4c9d617e9fa2873726ae473b4c74173affb8537c[m
+Author: Vitalii <Vitaliy.Rbn@gmail.com>
+Date:   Sun Jun 21 23:04:07 2020 +0300
+
+    First commit

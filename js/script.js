@@ -1,5 +1,6 @@
 const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');
 
+
 const PersonalMovieDB = {
 count: numberOfFilms,
 movies: {},
@@ -17,3 +18,14 @@ const a = prompt('Один из просмотренных фильмов?', '')
       PersonalMovieDB.movies[c] = d;
 
       console.log(PersonalMovieDB);
+
+"use strict";
+
+if (4 == 9) {
+console.log('ok!');
+} else {
+console.log('error');
+}
+
+const num = 50;
+if (num<49) {console.log('Error')}
