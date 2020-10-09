@@ -14,10 +14,6 @@
 
 'use strict';
 
-// Код возьмите из предыдущего домашнего задания
-
-
-
 const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');
 
 const PersonalMovieDB = {
@@ -33,7 +29,7 @@ for (let i = 0; i < 2; i++) {
     const a = prompt('Один из просмотренных фильмов', ''),
           b = prompt('На сколько вы оцените его?', '');
         
-    personalMovieDB.movies[a] = b;
+    PersonalMovieDB.movies[a] = b;
         }
 
-console.log(personalMovieDB);
+console.log(PersonalMovieDB);
