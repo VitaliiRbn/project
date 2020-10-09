@@ -29,7 +29,22 @@ for (let i = 0; i < 2; i++) {
     const a = prompt('Один из просмотренных фильмов', ''),
           b = prompt('На сколько вы оцените его?', '');
         
-    PersonalMovieDB.movies[a] = b;
+if ( a != null && a != "" && b != null && b !="" && a.length < 50) {
+      PersonalMovieDB.movies[a] = b;
+      console.log('Done');
+} else {
+       console.log('Error');
+       i--;
+}
         }
+if (PersonalMovieDB.count < 10) {
+    console.log('Просмотрено довольно мало фильмов');
+} else if (PersonalMovieDB.count >= 10 && PersonalMovieDB.coutn < 30) {
+    console.log('Вы классический зритель');
+} else if (PersonalMovieDB.count >= 30) {
+    console.log('Вы киноман');
+} else {
+    console.log('Произошла Ошибка');
+}
 
 console.log(PersonalMovieDB);
